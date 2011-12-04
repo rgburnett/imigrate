@@ -1,0 +1,36 @@
+    ICONSTRAINTS(1DB)		DBDESIGN COMMANDS		ICONSTRAINTS(1DB)
+
+
+
+  
+   Name 	: iconstraints -  enable/disable constraints/triggers/indexes on a table
+  
+   Synopsis	: iconstraints <database> table ... [ -d | -e ] [ -c -i -t ] 
+  
+   Arguments	: database - the name of the database containing the tables
+  
+  		  table...    a list of tables whose constrainst/triggers/indexes 
+  			      should be operated on.
+  
+  		  -e 	      enable constraints/triggers/indexes
+  
+  		  -d	      disable constraints/triggers/indexes
+  
+  		  -c	      CONSTRAINTS 
+  
+  		  -i	      INDEXES
+  
+  		  -t	      TRIGGERS
+  
+   Description	: iconstraints disables/enables the operation of database 
+  		  objects on specified tables. It allows you to switch off 
+  		  or on CONSTRAINTS (e.g. PRIMARY KEYS, FOREIGN KEYS KEY 
+  		  CONSTRAINTS, CHECK CONSTRAINTS), TRIGGERS and/or INDEXES.
+  
+   Returns	: 0 on success 
+  
+   See Also	: Informix Guide to 7.1 Feature Enhancements 
+  		  Part No. 000-7748. the SET command 3-78. This describes
+  		  the operations performed by the ENABLED | DISABLED 
+  		  FILTERING commands.
+  

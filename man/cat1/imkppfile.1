@@ -1,0 +1,78 @@
+    IMKPPFILE(1DB)		DBDESIGN COMMANDS		IMKPPFILE(1DB)
+
+
+
+   Name 	: imkppfile - build template iimport preprocess file
+  
+   Usage	: imkppfile <source database> <target database>
+  
+   Arguements	: <source database> - where the data currently resides. 
+  
+  		  <target database> - Destination database for source data
+  
+   Description	: imkppfile builds a template preprocess file for the iimport(1DB)
+  		  tool. The template allows you to customise a script which will
+  		  be used by iimport to transfer data from the migration database
+  		  to the target database.
+  
+  		  By default, all tables in the target database are assumed to
+  		  be in the source database. An insert/select statement is 
+  		  built for each statement:
+  
+  		    INSERT INTO
+  			dbtarget:customer
+  		    (
+  			customer_num,
+  			lname,
+  			fname,
+  			company,
+  			address1,
+  			address2,
+  			city,
+  			state,
+  			zipcode,
+  			phone
+  		    )
+  		    SELECT
+  			customer_num,
+  			lname,
+  			fname,
+  			company,
+  			address1,
+  			address2,
+  			city,
+  			state,
+  			zipcode,
+  			phone
+  		    FROM
+  			dbsource:customer;
+  
+  		  It is then up to the end user to customise these statements
+  		  to perform the necessary translations.
+  
+   Options	: none 
+  
+   Notes	: none 
+  
+   Perms	: 555
+  
+   Status	: INTERNAL DB TEAM USE ONLY
+  
+   See Also	: iexport(1DB), iimport(1DB) 
+  
+   Sccs Id	: %W% 
+  
+   Dated	: %D% %T% 
+  
+   Owner	: Graeme Burnett
+  
+   Continuus
+   
+   Type		: %cvtype: %
+   Created by	: %created_by: %
+   Date Created	: %date_created: %
+   Date Modified: %date_modified: %
+   Derived by	: %derived_by: %
+   File/Version	: %filespec: %
+  
+  

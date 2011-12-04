@@ -1,0 +1,5 @@
+This is how you set up the test environment for iexport/iimport/iconstraints etc.
+
+All you need to do is run the script iinstall
+
+The preprocess file for iimport is in this directory.

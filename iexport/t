@@ -1,0 +1,5 @@
+#!/bin/sh
+
+export INFORMIXC=cc_r
+
+esql -DTEST -I../incl ../../lib/libdb.a $1

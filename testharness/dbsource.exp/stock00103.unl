@@ -1,0 +1,74 @@
+1|HRO|baseball gloves|250.0|case|10 gloves/case|
+1|HSK|baseball gloves|800.0|case|10 gloves/case|
+1|SMT|baseball gloves|450.0|case|10 gloves/case|
+2|HRO|baseball|126.0|case|24/case|
+3|HSK|baseball bat|240.0|case|12/case|
+3|SHM|baseball bat|280.0|case|12/case|
+4|HSK|football|960.0|case|24/case|
+4|HRO|football|480.0|case|24/case|
+5|NRG|tennis racquet|28.0|each|each|
+5|SMT|tennis racquet|25.0|each|each|
+5|ANZ|tennis racquet|19.8|each|each|
+6|SMT|tennis ball|36.0|case|24 cans/case|
+6|ANZ|tennis ball|48.0|case|24 cans/case|
+7|HRO|basketball|600.0|case|24/case|
+8|ANZ|volleyball|840.0|case|24/case|
+9|ANZ|volleyball net|20.0|each|each|
+101|PRC|bicycle tires|88.0|box|4/box|
+101|SHM|bicycle tires|68.0|box|4/box|
+102|SHM|bicycle brakes|220.0|case|4 sets/case|
+102|PRC|bicycle brakes|480.0|case|4 sets/case|
+103|PRC|frnt derailleur|20.0|each|each|
+104|PRC|rear derailleur|58.0|each|each|
+105|PRC|bicycle wheels|53.0|pair|pair|
+105|SHM|bicycle wheels|80.0|pair|pair|
+106|PRC|bicycle stem|23.0|each|each|
+107|PRC|bicycle saddle|70.0|pair|pair|
+108|SHM|crankset|45.0|each|each|
+109|PRC|pedal binding|30.0|case|6 pairs/case|
+109|SHM|pedal binding|200.0|case|4 pairs/case|
+110|PRC|helmet|236.0|case|4/case|
+110|ANZ|helmet|244.0|case|4/case|
+110|SHM|helmet|228.0|case|4/case|
+110|HRO|helmet|260.0|case|4/case|
+110|HSK|helmet|308.0|case|4/case|
+111|SHM|10-spd, assmbld|499.99|each|each|
+112|SHM|12-spd, assmbld|549.0|each|each|
+113|SHM|18-spd, assmbld|685.9|each|each|
+114|PRC|bicycle gloves|120.0|case|10 pairs/case|
+201|NKL|golf shoes|37.5|each|each|
+201|ANZ|golf shoes|75.0|each|each|
+201|KAR|golf shoes|90.0|each|each|
+202|NKL|metal woods|174.0|case|2 sets/case|
+202|KAR|std woods|230.0|case|2 sets/case|
+203|NKL|irons/wedge|670.0|case|2 sets/case|
+204|KAR|putter|45.0|each|each|
+205|NKL|3 golf balls|312.0|case|24/case|
+205|ANZ|3 golf balls|312.0|case|24/case|
+205|HRO|3 golf balls|312.0|case|24/case|
+301|NKL|running shoes|97.0|each|each|
+301|HRO|running shoes|42.5|each|each|
+301|SHM|running shoes|102.0|each|each|
+301|PRC|running shoes|75.0|each|each|
+301|KAR|running shoes|87.0|each|each|
+301|ANZ|running shoes|95.0|each|each|
+302|HRO|ice pack|4.5|each|each|
+302|KAR|ice pack|5.0|each|each|
+303|PRC|socks|48.0|box|24 pairs/box|
+303|KAR|socks|36.0|box|24 pairs/box|
+304|ANZ|watch|170.0|box|10/box|
+304|HRO|watch|280.0|box|10/box|
+305|HRO|first-aid kit|48.0|case|4/case|
+306|PRC|tandem adapter|160.0|each|each|
+306|SHM|tandem adapter|190.0|each|each|
+307|PRC|infant jogger|250.0|each|each|
+308|PRC|twin jogger|280.0|each|each|
+309|HRO|ear drops|40.0|case|20/case|
+309|SHM|ear drops|40.0|case|20/case|
+310|SHM|kick board|80.0|case|10/case|
+310|ANZ|kick board|84.0|case|12/case|
+311|SHM|water gloves|48.0|box|4 pairs/box|
+312|SHM|racer goggles|96.0|box|12/box|
+312|HRO|racer goggles|72.0|box|12/box|
+313|SHM|swim cap|72.0|box|12/box|
+313|ANZ|swim cap|60.0|box|12/box|

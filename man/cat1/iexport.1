@@ -1,0 +1,38 @@
+    IEXPORT(1DB)		DBDESIGN COMMANDS		IEXPORT(1DB)
+
+
+
+  
+   Name 	: iexport - capture a database snapshot for data migration 
+  
+   Synopsis	: iexport database
+  
+   Arguments	: database 	- name of a database
+  
+   Description	: iexport exports the contents of all tables within a database
+  		  to a series of compressed output files and a copy of the 
+  		  database schema withing a directory called 
+  		  <databasename>.cexp.
+  
+   Options	: none 
+  
+   Notes	: The name of the export directory is suffixed by .cexp to signify
+  		  a compressed export.
+  
+  		  The standard informix utility dbexport provides the same 
+  		  functionality with one large caveat: it cannot handle tables
+  		  where the size exceeds the current hard ulimit. As we are 
+  		  regularily dealing with volumes far in excess of this, the 
+  		  need for this tool becomes apparent.
+  
+  		  All exported files are held as compress(1) files and, if need
+  		  be, can be uncompress(1)ed.
+  
+   Status	: SUPPORTED 
+  
+   See Also	: iimport(1DB)
+  
+  
+
+   Need to define MAIN both in the esql and C domains
+  

@@ -1,0 +1,24 @@
+(
+dbaccess - <<!
+drop database dbsource;
+drop database dbtarget;
+!
+) >/dev/null 2>&1
+
+
+echo "Importing database dbsource"
+
+dbimport dbsource
+
+echo "Importing database dbtarget"
+
+dbimport dbtarget
+
+cat <<!
+
+Now you can test iexport on the database dbsource. When this is complete
+and you are happy with the results, you will have to rename the dbsource.cexp
+directory to dbtarget.cexp and the file dbsource.cexp/dbsource.sql to 
+dbtarget.cexp/dbtarget.sql. You can then run iimport.
+
+!

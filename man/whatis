@@ -1,0 +1,5 @@
+iconstraints(1DB)- enable/disable constraints/triggers/indexes on a table 
+iexport(1DB)- capture a database snapshot for data migration 
+iimport(1DB)- migrate a database to the current in-situ schema 
+imkppfile(1DB)- build template iimport preprocess file 
+irun(1DB)- run a file full of sql commands. 
